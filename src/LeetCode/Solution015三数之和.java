@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.*;
 
-public class Solution15三数之和 {
+public class Solution015三数之和 {
 
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums == null || nums.length < 3) {

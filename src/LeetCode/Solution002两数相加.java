@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class Solution02两数相加 {
+public class Solution002两数相加 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(-1);
         ListNode head = res;

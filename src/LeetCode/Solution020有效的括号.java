@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Stack;
 
-public class Solution20有效的括号 {
+public class Solution020有效的括号 {
 
     public static void main(String[] args) {
         System.out.println(isValid("]{"));

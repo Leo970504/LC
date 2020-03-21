@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class Solution25K个一组反转链表 {
+public class Solution025K个一组反转链表 {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
