@@ -9,7 +9,7 @@ class ListNode {
     }
 }
 
-public class Solution21合并两个有序链表 {
+public class Solution021合并两个有序链表 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(-1);
         ListNode res = head;

@@ -12,7 +12,7 @@ class TreeNode {
     }
 }
 
-public class Solution98验证二叉搜索树 {
+public class Solution098验证二叉搜索树 {
 
     ArrayList<Integer> res = new ArrayList<>();
 
