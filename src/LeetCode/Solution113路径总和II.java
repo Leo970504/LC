@@ -3,7 +3,7 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solutin113路径总和II {
+public class Solution113路径总和II {
     List<List<Integer>> res = new ArrayList<>();
     List<Integer> inner = new ArrayList<>();
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
