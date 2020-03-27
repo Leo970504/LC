@@ -6,11 +6,6 @@ import java.util.Arrays;
 
 public class Solution914卡牌的分组 {
 
-    public static void main(String[] args) {
-        int[] nums = {1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
-        System.out.println(hasGroupsSizeX(nums));
-    }
-
     public static boolean hasGroupsSizeX(int[] deck) {
         Arrays.sort(deck);
         ArrayList<Integer> counts = new ArrayList<>();

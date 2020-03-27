@@ -2,11 +2,6 @@ package LeetCode每日一题;
 
 public class Solution面试题17按摩师 {
 
-    public static void main(String[] args) {
-        int[] n = {2, 1};
-        System.out.println(massage(n));
-    }
-
     public static int massage(int[] nums) {
         int len = nums.length;
         if(nums.length == 0) {

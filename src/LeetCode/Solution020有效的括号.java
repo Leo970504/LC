@@ -4,10 +4,6 @@ import java.util.Stack;
 
 public class Solution020有效的括号 {
 
-    public static void main(String[] args) {
-        System.out.println(isValid("]{"));
-    }
-
     public static boolean isValid(String s) {
         if(s.length() % 2 == 1) {
             return false;
